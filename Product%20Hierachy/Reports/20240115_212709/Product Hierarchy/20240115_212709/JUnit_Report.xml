@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product Hierarchy" time="110.098" tests="1" failures="1" errors="0">
+   <testsuite name="Product Hierarchy" tests="1" failures="1" errors="0" time="110.098" skipped="0" timestamp="2024-01-15 21:27:18" hostname="Lean.Narvadez - PHCORPLD3TNHS3.emrsn.org" id="Test Suites/Product Hierarchy">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lean.Narvadez\\OneDrive - Emerson\\CRM Cloud Automation\\Product%20Hierachy\\Reports\\20240115_212709\\Product Hierarchy\\20240115_212709"/>
+         <property name="logFiles" value="C:\\Users\\Lean.Narvadez\\OneDrive - Emerson\\CRM Cloud Automation\\Product%20Hierachy\\Reports\\20240115_212709\\Product Hierarchy\\20240115_212709\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lean.Narvadez - PHCORPLD3TNHS3.emrsn.org"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.140"/>
+         <property name="sessionId" value="516e736aa75b0e554d62147e9cce9c67"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Configuration/Create Product" time="109.911" classname="Test Cases/Configuration/Create Product" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Configuration/Create Product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/common/btn_Generic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at common.ProductHierarchy.addProduct(ProductHierarchy.groovy:160)
+	at common.ProductHierarchy.invokeMethod(ProductHierarchy.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Create Product.run(Create Product:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705325229576.run(TempTestSuite1705325229576.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PHCORPLD3TNHS3', ip: '192.168.100.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\LEAN~1.NAR\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 516e736aa75b0e554d62147e9cce9c67
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2024-01-15 21:27:18 - [TEST_CASE][FAILED] - Test Cases/Configuration/Create Product: Test Cases/Configuration/Create Product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/common/btn_Generic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at common.ProductHierarchy.addProduct(ProductHierarchy.groovy:160)
+	at common.ProductHierarchy.invokeMethod(ProductHierarchy.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Create Product.run(Create Product:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705325229576.run(TempTestSuite1705325229576.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PHCORPLD3TNHS3', ip: '192.168.100.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\LEAN~1.NAR\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 516e736aa75b0e554d62147e9cce9c67
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2024-01-15 21:27:19 - [TEST_STEP][PASSED] - openBrowser("https://ehgw-dev1.login.us6.oraclecloud.com/"): Browser is opened with url: 'https://ehgw-dev1.login.us6.oraclecloud.com/'
+
+2024-01-15 21:27:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-15 21:27:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-15 21:27:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ehgw-dev1.login.us6.oraclecloud.com/'
+
+2024-01-15 21:27:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-15 21:27:28 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-15 21:27:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/common/input_Generic", ["aria-label":"User ID"]), "marcialroman.paypon@emerson.com"): Text 'marcialroman.paypon@emerson.com' is set on object 'Object Repository/common/input_Generic'
+
+2024-01-15 21:27:29 - [MESSAGE][PASSED] - Text 'marcialroman.paypon@emerson.com' is set on object 'Object Repository/common/input_Generic'
+
+2024-01-15 21:27:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/common/input_Generic", ["aria-label":"Password"]), "P22/mDurbpKjdVgV9vjhhw=="): Text ****** has been set on object 'Object Repository/common/input_Generic'
+
+2024-01-15 21:27:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/input_Generic'
+
+2024-01-15 21:27:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/btn_Generic", ["text":"Sign In "])): Object: 'Object Repository/common/btn_Generic' is clicked on
+
+2024-01-15 21:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/common/btn_Generic' is clicked on
+
+2024-01-15 21:27:38 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-01-15 21:27:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-01-15 21:27:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/img_titleGeneric", ["title":"Settings and Actions"])): Object: 'Object Repository/common/img_titleGeneric' is clicked on
+
+2024-01-15 21:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/common/img_titleGeneric' is clicked on
+
+2024-01-15 21:27:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/a_TextGeneric", ["text":"Setup and Maintenance"])): Object: 'Object Repository/common/a_TextGeneric' is clicked on
+
+2024-01-15 21:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/common/a_TextGeneric' is clicked on
+
+2024-01-15 21:27:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-01-15 21:28:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-01-15 21:28:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/a_AriaLabelGeneric", ["aria-label":"Offering"])): Object: 'Object Repository/common/a_AriaLabelGeneric' is clicked on
+
+2024-01-15 21:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/common/a_AriaLabelGeneric' is clicked on
+
+2024-01-15 21:28:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/li_Generic", ["text":"Sales"])): Object: 'Object Repository/common/li_Generic' is clicked on
+
+2024-01-15 21:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/common/li_Generic' is clicked on
+
+2024-01-15 21:28:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-01-15 21:28:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-01-15 21:28:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/td_textGeneric", ["text":"Sales Catalog and Products"])): Object: 'Object Repository/common/td_textGeneric' is clicked on
+
+2024-01-15 21:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/common/td_textGeneric' is clicked on
+
+2024-01-15 21:28:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-15 21:28:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-15 21:28:12 - [TEST_STEP][PASSED] - excelData = findTestData("Data Files/Product Hierarchy"): null
+
+2024-01-15 21:28:13 - [TEST_STEP][PASSED] - rowNum = excelData.getRowNumbers(): null
+
+2024-01-15 21:28:13 - [TEST_STEP][FAILED] - for ([index = 1, index <= rowNum, (index++)]): Unable to click on object 'Object Repository/common/btn_Generic'
+
+2024-01-15 21:28:13 - [TEST_STEP][PASSED] - logInfo("Run: " + index): Run: 1
+
+2024-01-15 21:28:13 - [MESSAGE][INFO] - Run: 1
+
+2024-01-15 21:28:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/a_TextGeneric", ["text":"Manage Product Groups"])): Object: 'Object Repository/common/a_TextGeneric' is clicked on
+
+2024-01-15 21:28:14 - [MESSAGE][PASSED] - Object: 'Object Repository/common/a_TextGeneric' is clicked on
+
+2024-01-15 21:28:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-01-15 21:28:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-01-15 21:28:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/common/input_idContainsGeneric", ["id":"c1::content"]), 3): Object 'Object Repository/common/input_idContainsGeneric' is visible
+
+2024-01-15 21:28:25 - [MESSAGE][PASSED] - Object 'Object Repository/common/input_idContainsGeneric' is visible
+
+2024-01-15 21:28:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/common/input_idContainsGeneric", ["id":"c1::content"]), "Emerson Automation Solutions"): Text 'Emerson Automation Solutions' is set on object 'Object Repository/common/input_idContainsGeneric'
+
+2024-01-15 21:28:26 - [MESSAGE][PASSED] - Text 'Emerson Automation Solutions' is set on object 'Object Repository/common/input_idContainsGeneric'
+
+2024-01-15 21:28:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/input_idContainsGeneric", ["id":"c1::content"]), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/common/input_idContainsGeneric'
+
+2024-01-15 21:28:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/common/input_idContainsGeneric'
+
+2024-01-15 21:28:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-01-15 21:28:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-01-15 21:28:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/img_titleGeneric", ["title":"Tree View"])): Object: 'Object Repository/common/img_titleGeneric' is clicked on
+
+2024-01-15 21:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/common/img_titleGeneric' is clicked on
+
+2024-01-15 21:28:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product groups/a_dropdown", ["text":excelData.getValue("levelZero", index)])): Object: 'Object Repository/product groups/a_dropdown' is clicked on
+
+2024-01-15 21:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/product groups/a_dropdown' is clicked on
+
+2024-01-15 21:28:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product groups/a_dropdown", ["text":excelData.getValue("levelOne", index)])): Object: 'Object Repository/product groups/a_dropdown' is clicked on
+
+2024-01-15 21:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/product groups/a_dropdown' is clicked on
+
+2024-01-15 21:28:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product groups/a_dropdown", ["text":excelData.getValue("levelOne.Five", index)])): Object: 'Object Repository/product groups/a_dropdown' is clicked on
+
+2024-01-15 21:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/product groups/a_dropdown' is clicked on
+
+2024-01-15 21:28:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product groups/a_dropdown", ["text":excelData.getValue("levelTwo", index)])): Object: 'Object Repository/product groups/a_dropdown' is clicked on
+
+2024-01-15 21:28:38 - [MESSAGE][PASSED] - Object: 'Object Repository/product groups/a_dropdown' is clicked on
+
+2024-01-15 21:28:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product groups/a_dropdown", ["text":excelData.getValue("levelThree", index)])): Object: 'Object Repository/product groups/a_dropdown' is clicked on
+
+2024-01-15 21:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/product groups/a_dropdown' is clicked on
+
+2024-01-15 21:28:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product groups/a_dropdown", ["text":excelData.getValue("levelFour", index)])): Object: 'Object Repository/product groups/a_dropdown' is clicked on
+
+2024-01-15 21:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/product groups/a_dropdown' is clicked on
+
+2024-01-15 21:28:40 - [TEST_STEP][PASSED] - value = excelData.getValue("levelFive", index): null
+
+2024-01-15 21:28:40 - [TEST_STEP][PASSED] - if (value.isEmpty()): null
+
+2024-01-15 21:28:40 - [TEST_STEP][FAILED] - else: Unable to click on object 'Object Repository/common/btn_Generic'
+
+2024-01-15 21:28:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product groups/span_product", ["summary":"Product Group Hierarchy", "text":excelData.getValue("levelFive", index)])): Object: 'Object Repository/product groups/span_product' is clicked on
+
+2024-01-15 21:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/product groups/span_product' is clicked on
+
+2024-01-15 21:28:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-01-15 21:28:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-01-15 21:28:46 - [TEST_STEP][PASSED] - lockValue = verifyElementPresent(findTestObject("Object Repository/common/a_roleBtn", ["text":"Lock"]), 5, OPTIONAL): Object 'Object Repository/common/a_roleBtn' is present
+
+2024-01-15 21:28:46 - [MESSAGE][PASSED] - Object 'Object Repository/common/a_roleBtn' is present
+
+2024-01-15 21:28:46 - [TEST_STEP][PASSED] - logInfo("Lock button value " + lockValue): Lock button value true
+
+2024-01-15 21:28:46 - [MESSAGE][INFO] - Lock button value true
+
+2024-01-15 21:28:46 - [TEST_STEP][FAILED] - if (lockValue.equals("true")): Unable to click on object 'Object Repository/common/btn_Generic'
+
+2024-01-15 21:28:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/a_roleBtn", ["text":"Lock"])): Object: 'Object Repository/common/a_roleBtn' is clicked on
+
+2024-01-15 21:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/common/a_roleBtn' is clicked on
+
+2024-01-15 21:28:47 - [TEST_STEP][FAILED] - common.ProductHierarchy.addProduct(index, rowNum): Unable to click on object 'Object Repository/common/btn_Generic'
+
+2024-01-15 21:28:47 - [MESSAGE][INFO] - Run: 1
+
+2024-01-15 21:28:49 - [MESSAGE][PASSED] - Object: 'Object Repository/product groups/menubar_product' is clicked on
+
+2024-01-15 21:28:51 - [MESSAGE][PASSED] - Object: 'Object Repository/common/img_titleGeneric' is clicked on
+
+2024-01-15 21:28:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-15 21:28:55 - [MESSAGE][PASSED] - Text 'Syncade Services [MES Services -Services-PSS-SYSS]' is set on object 'Object Repository/common/input_idContainsGeneric'
+
+2024-01-15 21:28:56 - [MESSAGE][PASSED] - Text 'Syncade Services [MES Services -Services-PSS-SYSS]' is set on object 'Object Repository/common/input_idContainsGeneric'
+
+2024-01-15 21:28:58 - [MESSAGE][PASSED] - Text 'Syncade Services [MES Services -Services-PSS-SYSS]' is set on object 'Object Repository/common/textarea_idContainsGeneric'
+
+2024-01-15 21:28:58 - [MESSAGE][INFO] - Created product: Syncade Services [MES Services -Services-PSS-SYSS]
+
+2024-01-15 21:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/common/btn_Generic' is clicked on
+
+2024-01-15 21:29:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-15 21:29:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2024-01-15 21:29:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/common/btn_Generic' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/common/btn_Generic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at common.ProductHierarchy.addProduct(ProductHierarchy.groovy:160)
+	at common.ProductHierarchy.invokeMethod(ProductHierarchy.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Create Product.run(Create Product:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705325229576.run(TempTestSuite1705325229576.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PHCORPLD3TNHS3', ip: '192.168.100.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\LEAN~1.NAR\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 516e736aa75b0e554d62147e9cce9c67
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at common.ProductHierarchy.addProduct(ProductHierarchy.groovy:160)
+	at common.ProductHierarchy.invokeMethod(ProductHierarchy.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1676974981120.run(Script1676974981120.groovy:108)
+	... 13 more
+)
+
+2024-01-15 21:29:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/common/btn_Generic']]></system-out>
+         <system-err><![CDATA[2024-01-15 21:27:18 - [TEST_CASE][FAILED] - Test Cases/Configuration/Create Product: Test Cases/Configuration/Create Product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/common/btn_Generic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at common.ProductHierarchy.addProduct(ProductHierarchy.groovy:160)
+	at common.ProductHierarchy.invokeMethod(ProductHierarchy.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Create Product.run(Create Product:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705325229576.run(TempTestSuite1705325229576.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PHCORPLD3TNHS3', ip: '192.168.100.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\LEAN~1.NAR\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 516e736aa75b0e554d62147e9cce9c67
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-15 21:27:18 - [TEST_SUITE][FAILED] - Product Hierarchy: Test Cases/Configuration/Create Product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/common/btn_Generic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at common.ProductHierarchy.addProduct(ProductHierarchy.groovy:160)
+	at common.ProductHierarchy.invokeMethod(ProductHierarchy.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Create Product.run(Create Product:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705325229576.run(TempTestSuite1705325229576.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PHCORPLD3TNHS3', ip: '192.168.100.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\LEAN~1.NAR\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 516e736aa75b0e554d62147e9cce9c67
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[2024-01-15 21:27:18 - [TEST_SUITE][FAILED] - Product Hierarchy: Test Cases/Configuration/Create Product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/common/btn_Generic'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at common.ProductHierarchy.addProduct(ProductHierarchy.groovy:160)
+	at common.ProductHierarchy.invokeMethod(ProductHierarchy.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Create Product.run(Create Product:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705325229576.run(TempTestSuite1705325229576.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.217)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PHCORPLD3TNHS3', ip: '192.168.100.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\LEAN~1.NAR\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 516e736aa75b0e554d62147e9cce9c67
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>

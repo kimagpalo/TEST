@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Product Hierarchy,Chrome 120.0.0.0,,,2024-01-15 21:27:18,2024-01-15 21:29:08,1m - 50.098s,FAILED
+,,,,,,,
+Test Cases/Configuration/Create Product,Chrome 120.0.0.0,,,2024-01-15 21:27:18,2024-01-15 21:29:08,1m - 49.911s,FAILED
+"openBrowser(""https://ehgw-dev1.login.us6.oraclecloud.com/"")",Chrome 120.0.0.0,,,2024-01-15 21:27:19,2024-01-15 21:27:28,8.918s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-15 21:27:28,2024-01-15 21:27:28,0.194s,PASSED
+"setText(findTestObject(""Object Repository/common/input_Generic"", [""aria-label"":""User ID""]), ""marcialroman.paypon@emerson.com"")",Chrome 120.0.0.0,,,2024-01-15 21:27:28,2024-01-15 21:27:29,0.909s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/common/input_Generic"", [""aria-label"":""Password""]), ""P22/mDurbpKjdVgV9vjhhw=="")",Chrome 120.0.0.0,,,2024-01-15 21:27:29,2024-01-15 21:27:29,0.473s,PASSED
+"click(findTestObject(""Object Repository/common/btn_Generic"", [""text"":""Sign In ""]))",Chrome 120.0.0.0,,,2024-01-15 21:27:29,2024-01-15 21:27:38,8.458s,PASSED
+waitForPageLoad(5),Chrome 120.0.0.0,,,2024-01-15 21:27:38,2024-01-15 21:27:38,0.180s,PASSED
+"click(findTestObject(""Object Repository/common/img_titleGeneric"", [""title"":""Settings and Actions""]))",Chrome 120.0.0.0,,,2024-01-15 21:27:38,2024-01-15 21:27:40,1.626s,PASSED
+"click(findTestObject(""Object Repository/common/a_TextGeneric"", [""text"":""Setup and Maintenance""]))",Chrome 120.0.0.0,,,2024-01-15 21:27:40,2024-01-15 21:27:59,18.978s,PASSED
+delay(5),Chrome 120.0.0.0,,,2024-01-15 21:27:59,2024-01-15 21:28:04,5.034s,PASSED
+"click(findTestObject(""Object Repository/common/a_AriaLabelGeneric"", [""aria-label"":""Offering""]))",Chrome 120.0.0.0,,,2024-01-15 21:28:04,2024-01-15 21:28:04,0.555s,PASSED
+"click(findTestObject(""Object Repository/common/li_Generic"", [""text"":""Sales""]))",Chrome 120.0.0.0,,,2024-01-15 21:28:04,2024-01-15 21:28:05,0.612s,PASSED
+delay(5),Chrome 120.0.0.0,,,2024-01-15 21:28:05,2024-01-15 21:28:10,5.018s,PASSED
+"click(findTestObject(""Object Repository/common/td_textGeneric"", [""text"":""Sales Catalog and Products""]))",Chrome 120.0.0.0,,,2024-01-15 21:28:10,2024-01-15 21:28:10,0.521s,PASSED
+delay(2),Chrome 120.0.0.0,,,2024-01-15 21:28:10,2024-01-15 21:28:12,2.019s,PASSED
+"excelData = findTestData(""Data Files/Product Hierarchy"")",Chrome 120.0.0.0,,,2024-01-15 21:28:12,2024-01-15 21:28:13,0.885s,PASSED
+rowNum = excelData.getRowNumbers(),Chrome 120.0.0.0,,,2024-01-15 21:28:13,2024-01-15 21:28:13,0.029s,PASSED
+"for ([index = 1, index <= rowNum, (index++)])",Chrome 120.0.0.0,,,2024-01-15 21:28:13,2024-01-15 21:29:08,55.160s,FAILED
